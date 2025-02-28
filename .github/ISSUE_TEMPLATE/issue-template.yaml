@@ -34,7 +34,7 @@ body:
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
         - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); or
-        - is subject to a blanket exception that has been granted previously ([see here](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)) or another previously-granted exception for an equivalent use case.
+        - is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)) or another previously-granted exception for an equivalent use case.
 
 
         ---
@@ -99,6 +99,8 @@ body:
 
         Please see "[Scope and Nature of Dependencies](https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md#scope-and-nature-of-dependencies)” for details on how the following terms are being used here.
 
+        <br />
+        
         ### Context
 
 
@@ -116,7 +118,6 @@ body:
     id: mandatory_dependencies_explanation
     attributes:
       label: "If no, please explain"
-      description: "Provide details on why some components are not mandatory."
     validations:
       required: false
 
