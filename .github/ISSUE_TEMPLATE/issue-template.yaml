@@ -1,5 +1,5 @@
 ---
-name: Licensing Exception Request
+name: License Exception Request
 description: Submit an exception request
 title: "[License Exception Request] [Project] [License]"
 labels:
@@ -11,7 +11,7 @@ body:
       value: |
         # Read before proceeding
 
-        Before submitting this license exception request, please familiarize yourself with the following:
+        Before submitting this License Exception Request, please familiarize yourself with the following:
 
         - the CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy), particularly 11(g)
         - the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)
@@ -101,7 +101,7 @@ body:
 
         <br />
         
-        ### Context
+        ### :white_circle: Context
 
 
   - type: dropdown
@@ -146,7 +146,7 @@ body:
       value: |
         <br />
         
-        ### Nature of interactions
+        ### :white_circle: Nature of interactions
 
 
   - type: checkboxes
@@ -172,7 +172,7 @@ body:
       value: |
         <br />
         
-        ### Modifications
+        ### :white_circle: Modifications
         
 
   - type: dropdown
