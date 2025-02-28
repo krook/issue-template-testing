@@ -49,7 +49,7 @@ body:
       value: |
         <br />
         
-        ## Project details
+        ## :clipboard: Project details
 
         The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
 
@@ -76,7 +76,7 @@ body:
       value: |
         <br />
         
-        ## Component details
+        ## :computer: Component details
         
         Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Purpose" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
 
@@ -93,7 +93,7 @@ body:
       value: |
         <br />
         
-        ## Additional details
+        ## :clipboard: Additional details
 
         The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
 
