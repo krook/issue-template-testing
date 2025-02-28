@@ -34,13 +34,13 @@ body:
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
         - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); or
-        - is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)) or another previously-granted exception for an equivalent use case.
+        - is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md) or another previously-granted exception for an equivalent use case.
 
         <br />
 
         ---
 
-        # License exception request form
+        # License Exception Request form
 
         For any components where none of the above criteria are met, please complete the form below.
 
