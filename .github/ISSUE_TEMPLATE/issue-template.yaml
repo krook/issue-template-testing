@@ -84,7 +84,6 @@ body:
     id: component_details
     attributes:
       label: "Component table"
-      description: ""
       value: "| Component | Upstream URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
     validations:
       required: true
