@@ -37,9 +37,11 @@ body:
         - is subject to a blanket exception that has been granted previously ([see here](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)) or another previously-granted exception for an equivalent use case.
 
 
-        For any components where none of the above criteria are met, please provide the following information.
+        ---
 
-        # License exception request
+        # License exception request form
+
+        For any components where none of the above criteria are met, please provide the following information.
 
 
   - type: markdown
@@ -70,7 +72,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ---
+        <br /><br />
         
         ## Component details
 
