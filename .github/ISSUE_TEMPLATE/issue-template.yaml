@@ -102,7 +102,7 @@ body:
 
         <br />
         
-        ### :white_circle: Context
+        ### :page_with_curl: Context
 
 
   - type: dropdown
@@ -147,7 +147,7 @@ body:
       value: |
         <br />
         
-        ### :white_circle: Nature of interactions
+        ### :page_with_curl: Nature of interactions
 
 
   - type: checkboxes
@@ -173,7 +173,7 @@ body:
       value: |
         <br />
         
-        ### :white_circle: Modifications
+        ### :page_with_curl: Modifications
         
 
   - type: dropdown
