@@ -125,7 +125,8 @@ body:
   - type: checkboxes
     id: inclusion_method
     attributes:
-      label: "Please select all of the following that apply to how the components will be included in or with the project's code and distributions:"
+      label: "How  will the components be included in or with the project's code and distributions?"
+      description: "Select all that apply"
       options:
         - label: "Incorporated code"
         - label: "Vendored component"
@@ -153,7 +154,8 @@ body:
   - type: checkboxes
     id: interaction_nature
     attributes:
-      label: "Which of the following best describes how the components interact with the project's own code? (select all that apply)"
+      label: "Which of the following best describes how the components interact with the project's own code?"
+      description: "Select all that apply"
       options:
         - label: "Static linking: e.g., compiled together with project code into a single binary"
         - label: "Dynamic linking: e.g., compiled into a separate binary, running together with project code in a single address space at run-time"
