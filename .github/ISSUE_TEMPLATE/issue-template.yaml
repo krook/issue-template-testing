@@ -45,7 +45,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Project details
+        ### Project details
 
         The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
 
@@ -70,7 +70,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Component details
+        
+        ### Component details
 
 
   - type: textarea
@@ -85,11 +86,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Additional details
+        
+        ### Additional details
 
         The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
 
         Please see "[Scope and Nature of Dependencies](https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md#scope-and-nature-of-dependencies)” for details on how the following terms are being used here.
+
+        #### Context
 
 
   - type: dropdown
@@ -105,7 +109,7 @@ body:
   - type: textarea
     id: mandatory_dependencies_explanation
     attributes:
-      label: "If __no__, please explain"
+      label: "If no, please explain"
       description: "Provide details on why some components are not mandatory."
     validations:
       required: false
@@ -130,6 +134,14 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        
+        
+        #### Nature of interactions
+
+
   - type: checkboxes
     id: interaction_nature
     attributes:
@@ -148,6 +160,14 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        
+        
+        #### Modifications
+        
+
   - type: dropdown
     id: modifications
     attributes:
@@ -161,7 +181,7 @@ body:
   - type: textarea
     id: modifications_details
     attributes:
-      label: "If __yes__, please specify which components will be modified, and briefly describe the purpose and nature of the modifications."
+      label: "If yes, please specify which components will be modified, and briefly describe the purpose and nature of the modifications."
     validations:
       required: false
 
