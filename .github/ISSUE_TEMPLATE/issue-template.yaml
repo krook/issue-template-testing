@@ -72,7 +72,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <br /><br />
+        <br />
         
         ## Component details
 
@@ -89,7 +89,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ---
+        <br />
         
         ## Additional details
 
@@ -141,7 +141,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ---
+        <br />
         
         ### Nature of interactions
 
