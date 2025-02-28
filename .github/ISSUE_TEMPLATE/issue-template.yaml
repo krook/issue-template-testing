@@ -41,12 +41,14 @@ body:
 
         # License exception request form
 
-        For any components where none of the above criteria are met, please provide the following information.
+        For any components where none of the above criteria are met, please complete the form below.
 
 
   - type: markdown
     attributes:
       value: |
+        <br />
+        
         ## Project details
 
         The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
@@ -75,13 +77,14 @@ body:
         <br />
         
         ## Component details
-
+        
+        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the \"Purpose\" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
 
   - type: textarea
     id: component_details
     attributes:
-      label: "Component details"
-      description: "Please fill in the table below, with one row for each unique component for which a license exception is requested. In the \"Purpose\" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it."
+      label: "Component table"
+      description: ""
       value: "| Component | Upstream URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
     validations:
       required: true
