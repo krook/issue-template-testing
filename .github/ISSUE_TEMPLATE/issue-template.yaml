@@ -10,24 +10,32 @@ body:
     attributes:
       value: |
         ## Read before proceeding
+
         Before submitting this license exception request, please familiarize yourself with the following:
-          - [CNCF IP Policy, from section 11 of the CNCF Charter, particularly 11(g)](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
-          - [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
-          - [HOWTO for submitting a license exception request](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
 
-        
+        - [CNCF IP Policy, from section 11 of the CNCF Charter, particularly 11(g)](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
+        - [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
+        - [HOWTO for submitting a license exception request](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
+
+
         If the license for a particular component or dependency is one of the following, please also read the noted guidance before proceeding:
-          - **AGPL-3.0 (Affero GPL v3)**: [AGPL guidance](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
-          - **A component that has relicensed to a non-open source, “source available” license**: [Source available guidance](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
-          - **Interactions generally with source available and other proprietary licenses**: [Proprietary / source available guidance](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
 
-        
+
+        - **AGPL-3.0 (Affero GPL v3)**: [AGPL guidance](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
+        - **A component that has relicensed to a non-open source, “source available” license**: [Source available guidance](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
+        - **Interactions generally with source available and other proprietary licenses**: [Proprietary / source available guidance](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)
+
+
         ### When no exception is required
+
         No exception request is required if the component meets any of the following:
+
+
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
         - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md); or
         - is subject to a blanket exception that has been granted previously ([see here](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md)) or another previously-granted exception for an equivalent use case.
+
 
   - type: input
     id: project_name
