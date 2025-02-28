@@ -169,7 +169,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ---
+        <br />
         
         ### Modifications
         
