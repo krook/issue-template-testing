@@ -135,6 +135,8 @@ body:
         - label: "Install-time dependency"
         - label: "Required upstream dependencies"
         - label: "Other (please describe below)"
+    validations:
+      required: true
 
   - type: textarea
     id: inclusion_method_explanation
@@ -162,6 +164,8 @@ body:
         - label: "Separate process: e.g., separate executable running in a different process space, interacting with project code only via mechanisms such as pipes, sockets, etc."
         - label: "Network interaction only: e.g., logically separated over a network and communicating only via mechanisms such as network API call, exchanging JSON data, etc."
         - label: "Other (please describe below)"
+    validations:
+      required: true
 
   - type: textarea
     id: interaction_explanation
