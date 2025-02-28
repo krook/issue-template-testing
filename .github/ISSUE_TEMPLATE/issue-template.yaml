@@ -70,7 +70,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        
+        ---
         
         ## Component details
 
@@ -80,14 +80,14 @@ body:
     attributes:
       label: "Component details"
       description: "Please fill in the table below, with one row for each unique component for which a license exception is requested. In the \"Purpose\" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it."
-      value: "| Component | Upstream URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |"
+      value: "| Component | Upstream URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
     validations:
       required: true
 
   - type: markdown
     attributes:
       value: |
-        
+        ---
         
         ## Additional details
 
@@ -139,7 +139,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        
+        ---
         
         ### Nature of interactions
 
@@ -165,7 +165,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        
+        ---
         
         ### Modifications
         
