@@ -84,7 +84,7 @@ body:
   - type: textarea
     id: component_details
     attributes:
-      label: "Component table"
+      label: "List of components requiring an exception"
       value: "| Component | Upstream URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
     validations:
       required: true
