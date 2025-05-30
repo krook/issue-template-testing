@@ -9,11 +9,16 @@ body:
   - type: markdown
     attributes:
       value: |
+        Under Section 11(b)(ii) of the [CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy), all inbound code contributions to the CNCF must be accompanied by a Developer Certificate of Origin (DCO). 
+        
+        To enforce this requirement, all CNCF Projects must enable the [DCO GitHub App](https://github.com/apps/dco) unless an exception is approved by the CNCF Governing Board after review by the Legal Committee.
+
+
         # Read before proceeding
 
         Before submitting this DCO Exception Request, please familiarize yourself with the following:
 
-        - the CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy), particularly 11(b) and 11(c)
+        - the DCO requirement set forth in [section 11(b)(i) of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy)
         - the [reasons why the Developer Certificate of Origin (DCO) is used and how it can be easily installed as a GitHub app](https://github.com/apps/dco)
 
         <br />
