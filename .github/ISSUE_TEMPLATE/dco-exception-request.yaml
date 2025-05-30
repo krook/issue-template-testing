@@ -34,7 +34,7 @@ body:
   - type: input
     id: project_name
     attributes:
-      label: "For which CNCF project are you requesting exceptions?"
+      label: "For which CNCF project are you requesting an exception?"
     validations:
       required: true
 
@@ -54,7 +54,6 @@ body:
         <br />
         
         ## :newspaper: Exception details
-        
 
   - type: textarea
     id: component_details
