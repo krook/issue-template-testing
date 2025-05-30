@@ -1,7 +1,7 @@
 ---
-name: License Exception Request
+name: DCO Exception Request
 description: Submit an exception request
-title: "[License Exception Request] [Project] [License]"
+title: "[DCO Exception Request] [Project] [License]"
 labels:
   - licensing
 assignees: krook,jeefy,joannalee333
