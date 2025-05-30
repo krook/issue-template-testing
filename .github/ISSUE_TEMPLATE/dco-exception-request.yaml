@@ -22,15 +22,14 @@ body:
 
         # DCO Exception Request form
 
+        The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
+
   - type: markdown
     attributes:
       value: |
         <br />
         
         ## :clipboard: Project details
-
-        The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
-
 
   - type: input
     id: project_name
@@ -56,12 +55,11 @@ body:
         
         ## :newspaper: Exception details
         
-        Please provide the background and reason(s) for your DCO exception request.
 
   - type: textarea
     id: component_details
     attributes:
-      label: "Explanation for the need for an exception to the requirement to use the DCO"
+      label: "Please provide the background and reason(s) for your DCO exception request"
     validations:
       required: true
 
