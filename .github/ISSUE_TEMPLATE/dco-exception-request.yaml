@@ -14,16 +14,13 @@ body:
         Before submitting this DCO Exception Request, please familiarize yourself with the following:
 
         - the CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy), particularly 11(b) and 11(c)
-        - the [reasons why the DCO is used and how it can be installed easily as a GitHub app](https://github.com/apps/dco)
+        - the [reasons why the Developer Certificate of Origin (DCO) is used and how it can be easily installed as a GitHub app](https://github.com/apps/dco)
 
         <br />
 
         ---
 
         # DCO Exception Request form
-
-        For any components where none of the above criteria are met, please complete the form below.
-
 
   - type: markdown
     attributes:
@@ -59,7 +56,7 @@ body:
         
         ## :newspaper: Exception details
         
-        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Purpose" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
+        Please provide the background and reason(s) for your DCO exception request.
 
   - type: textarea
     id: component_details
