@@ -9,12 +9,12 @@ body:
       value: |
         # Read before proceeding
 
-        Thanks for applying to join the CNCF Sandbox. Before you submit this form, please familiarize yourself with the following:
+        Thanks for applying to join the CNCF Sandbox. Before you submit this form, please familiarize yourself with the:
 
-        - the CNCF [Sandbox README](https://github.com/cncf/sandbox/blob/main/README.md)
-        - the CNCF [Project Lifecycle & Process](https://github.com/cncf/toc/blob/main/process/README.md#cncf-project-lifecycle--process)
-        - the CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy)
-        - the CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md)
+        - CNCF [Sandbox README](https://github.com/cncf/sandbox/blob/main/README.md)
+        - CNCF [Project Lifecycle & Process](https://github.com/cncf/toc/blob/main/process/README.md#cncf-project-lifecycle--process)
+        - CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy)
+        - CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md)
 
 
         This form will ask you to provide:
