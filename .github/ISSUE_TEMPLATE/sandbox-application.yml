@@ -9,7 +9,7 @@ body:
       value: |
         # Read before proceeding
 
-        Thanks for applying to join the CNCF Sandbox. Before you submit this form, please familiarize yourself with the:
+        Thank you for applying to join the CNCF Sandbox. Before proceeding, please familiarize yourself with the:
 
         - CNCF [Sandbox README](https://github.com/cncf/sandbox/blob/main/README.md)
         - CNCF [Project Lifecycle & Process](https://github.com/cncf/toc/blob/main/process/README.md#cncf-project-lifecycle--process)
@@ -262,7 +262,7 @@ body:
   - type: textarea
     attributes:
       label: Will the project require a license exception?
-      description: Does this project use a license other than [Apache 2.0 or one of the approved licenses on the CNCF Allowlist](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)? If no, write "N/A".
+      description: Does this project use a license other than [Apache 2.0 or one of the approved licenses on the CNCF Allowlist](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)? If no, write "N/A".
       placeholder: Add details on whether this project uses a license that is not on the approved list and therefore may need an exception after joining the CNCF
     validations:
       required: true
@@ -270,7 +270,7 @@ body:
   - type: textarea
     attributes:
       label: Project "Domain Technical Review"
-      description: Has your project engaged with the domain specific TAG(s) to increase awareness through a presentation and/or completing the Day 0 portion of the [General Technical Review](https://github.com/cncf/toc/blob/main/toc_subprojects/project-reviews-subproject/general-technical-questions.md) questionnaire? If so, please link meeting notes, recordings and/or completed [General Technical Review](https://github.com/cncf/toc/blob/main/toc_subprojects/project-reviews-subproject/general-technical-questions.md) questionnaire as applicable.
+      description: Has your project engaged with the domain specific TAG(s) to increase awareness through a presentation and/or completing the Day 0 portion of the [General Technical Review](https://github.com/cncf/toc/blob/main/toc_subprojects/project-reviews-subproject/general-technical-questions.md) questionnaire? If so, please link meeting notes, recordings and/or completed General Technical Review questionnaire as applicable.
     validations:
       required: false
 
@@ -293,9 +293,9 @@ body:
 
   - type: textarea
     attributes:
-      label: Contributing or sponsoring entity contact email(s)
+      label: Contributing or sponsoring entity contact information
       description: Provide the email address(es) of the project's contributing or sponsoring company/organization or group of individuals. This is the person or people that would sign the [Contribution Agreement](https://github.com/cncf/foundation/blob/main/agreements/Sample%20Contribution%20Agreement%20(2025).pdf) which assigns trademarks (if any), domains, and accounts to the Linux Foundation.
-      placeholder: Comma-separate multiple emails here
+      value: "If an organization:\n| Name | Address | Type (e.g., Delaware corporation) | Signatory name and title | Email address |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |\nIf an individual or individual(s):\n| Name | Country | Email address |\n|-----------|-----------|-----------|\n|-----------|-----------|-----------|\n|            |            |            |            |\n|-----------|-----------|-----------|"
     validations:
       required: true
 
