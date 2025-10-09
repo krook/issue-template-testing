@@ -17,14 +17,14 @@ body:
         - the CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md)
 
 
-        This form will require you to provide:
+        This form will ask you to provide:
 
-        - :clipboard: Basic project information - High-level project goals.
-        - :books: Project details - Detailed information about the project and its current state.
-        - :cloud: Cloud native context - Descriptions about how this project fits into the cloud native world.
-        - :blue_book: CNCF policies - Details on how the project aligns with expectations of CNCF projects.
-        - :envelope: Contact information - Information about who to contact with questions about the project and who will sign the [Contribution Agreement](https://github.com/cncf/foundation/blob/main/agreements/Sample%20Contribution%20Agreement%20(2025).pdf).
-        - :heavy_plus_sign: Additional information - Any other details about the project that can help inform the review.
+        - **Basic project information** - High-level project goals.
+        - **Project details** - Detailed information about the project and its current state.
+        - **Cloud native context** - Descriptions about how this project fits into the cloud native world.
+        - **CNCF policies** - Details on how the project aligns with expectations of CNCF projects.
+        - **Contact information** - Information about who to contact with questions about the project and who will sign the [Contribution Agreement](https://github.com/cncf/foundation/blob/main/agreements/Sample%20Contribution%20Agreement%20(2025).pdf).
+        - **Additional information** - Any other details about the project that can help inform the review.
 
 
         <br />
