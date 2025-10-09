@@ -9,12 +9,12 @@ body:
       value: |
         # Read before proceeding
 
-        Thanks for filling out a Sandbox application. Before you submit, please familiarize yourself with the following:
+        Thanks for appling to join the CNCF Sandbox. Before you submit this form, please familiarize yourself with the following:
 
-        - the CNCF [Sandbox README](https://github.com/cncf/sandbox/blob/main/README.md)
-        - the CNCF [Project Lifecycle & Process](https://github.com/cncf/toc/blob/main/process/README.md#cncf-project-lifecycle--process)
-        - the CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy)
-        - the CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md)
+        - CNCF [Sandbox README](https://github.com/cncf/sandbox/blob/main/README.md)
+        - CNCF [Project Lifecycle & Process](https://github.com/cncf/toc/blob/main/process/README.md#cncf-project-lifecycle--process)
+        - CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy)
+        - CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md)
 
 
         <br />
@@ -23,7 +23,7 @@ body:
 
         # Sandbox Application form
 
-        Please fill out the form below as completely as possible.
+        Please fill out the form below as completely as possible. The information will help facilitate the review by the CNCF Technical Oversight Committee (TOC) and Technical Advisory Group (TAG) by minimizing further questions during review.
 
   - type: markdown
     attributes:
@@ -32,7 +32,7 @@ body:
 
         ## :clipboard: Basic project information
 
-        The following information will help facilitate the review by the CNCF Technical Oversight Committee, and will help minimize further questions during review.
+        Describe the project at a high level.
 
   - type: input
     attributes:
@@ -57,7 +57,7 @@ body:
 
         ## :computer: Project details
 
-        Lorem ipsum
+        Provide detailed information about the project and its current state.
 
   - type: input
     attributes:
@@ -157,7 +157,7 @@ body:
   - type: textarea
     attributes:
       label: Business product or service to project separation
-      description: If this project is related to one or more products or services of the sponsoring company/organization(s), please explain how you plan to separate this project from any products in terms of organization and development.  The project could be the "upstream" open source version of a product or service, be a required dependency, or be a key part of the infrastructure you use to develop your products/services.  If the project is completely unrelated to any product/service, or the project contributor is not a business, please put "This project is unrelated to any product or service."
+      description: If this project is related to one or more products or services of the sponsoring company/organization(s), please explain how you plan to separate this project from any products in terms of organization and development. The project could be the "upstream" open source version of a product or service, be a required dependency, or be a key part of the infrastructure you use to develop your products/services. If the project is completely unrelated to any product/service, or the project contributor is not a business, please put "This project is unrelated to any product or service."
     validations:
       required: true
 
@@ -168,7 +168,7 @@ body:
 
         ## :newspaper: Cloud native context
 
-        Lorem ipsum
+        How does this project fit into the cloud native world?
 
   - type: textarea
     attributes:
@@ -218,7 +218,7 @@ body:
   - type: textarea
     attributes:
       label: Landscape
-      description: Are you already listed on the CNCF Landscape?
+      description: Are you already listed on the Cloud Native Landscape?
     validations:
       required: true
 
@@ -229,7 +229,7 @@ body:
 
         ## :newspaper: CNCF policies
 
-        Lorem ipsum
+        Please provide details on how the project aligns with expectations of CNCF projects.
 
   - type: checkboxes
     id: trademark
@@ -271,7 +271,7 @@ body:
 
         ## :newspaper: Contact information
 
-        Lorem ipsum
+        Provide information about who to contact with questions about the project and who will sign the Contribution Agreement.
 
   - type: textarea
     attributes:
@@ -296,12 +296,12 @@ body:
 
         ## :newspaper: Additional information
 
-        Lorem ipsum
+        Add any other details about the project that can help inform the review.
 
   - type: textarea
     attributes:
       label: CNCF contacts
-      description: Please list any people who are part of CNCF leadership (TOC, TAGS, etc.) who are familiar with, and can answer questions about your project.
+      description: Please list any people who are part of CNCF leadership (TOC, TAGs, etc.) who are familiar with, and can answer questions about your project.
     validations:
       required: false
 
