@@ -27,13 +27,16 @@ body:
         - **Additional information** - Any other details about the project that can help inform the review.
 
 
+        Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. This must be signed before the Technical Oversight Committee (TOC) votes on whether to accept the project. It will be countersigned by the Linux Foundation only after a succesful vote.
+
+
         <br />
 
         ---
 
         # Sandbox Application form
 
-        Please fill out the form below as completely as possible. This information will help facilitate the review by the CNCF Technical Oversight Committee (TOC) and Technical Advisory Group (TAG) by minimizing follow-up questions.
+        Please fill out the form below as completely as possible. This information will help facilitate the review by the CNCF TOC and a Technical Advisory Group (TAG) by minimizing follow-up questions.
 
   - type: markdown
     attributes:
