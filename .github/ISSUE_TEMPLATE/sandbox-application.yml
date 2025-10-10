@@ -15,6 +15,7 @@ body:
         - CNCF [Project Lifecycle & Process](https://github.com/cncf/toc/blob/main/process/README.md#cncf-project-lifecycle--process)
         - CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy)
         - CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md)
+        - CNCF [minimal support and marketing expectations for Sandbox projects](https://contribute.cncf.io/resources/project-services/maturity-levels/#sandbox).
 
 
         This form will ask you to provide:
@@ -27,7 +28,7 @@ body:
         - **Additional information** - Any other details about the project that can help inform the review.
 
 
-        Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. This must be signed before the Technical Oversight Committee (TOC) votes on whether to accept the project. It will be countersigned by the Linux Foundation only after a succesful vote.
+        Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. **This must be signed before the Technical Oversight Committee (TOC) votes on whether to accept the project.** It will be countersigned by the Linux Foundation only after a succesful vote.
 
 
         <br />
