@@ -9,7 +9,7 @@ body:
       value: |
         # Read before proceeding
 
-        Thank you for applying to join the CNCF Sandbox. Before proceeding, please familiarize yourself with the:
+        Thank you for applying to join the CNCF Sandbox. Please familiarize yourself with the:
 
         - CNCF [Sandbox README](https://github.com/cncf/sandbox/blob/main/README.md)
         - CNCF [Project Lifecycle & Process](https://github.com/cncf/toc/blob/main/process/README.md#cncf-project-lifecycle--process)
@@ -20,8 +20,8 @@ body:
         This form will ask you to provide:
 
         - **Basic project information** - High-level project goals.
-        - **Project details** - Detailed information about the project and its current state.
-        - **Cloud native context** - Descriptions about how this project fits into the cloud native world.
+        - **Project details** - In-depth information about the project and its current state.
+        - **Cloud native context** - Information on how this project fits into the cloud native world.
         - **CNCF policies** - Details on how the project aligns with expectations of CNCF projects.
         - **Contact information** - Information about who to contact with questions about the project and who will sign the [Contribution Agreement](https://github.com/cncf/foundation/blob/main/agreements/Sample%20Contribution%20Agreement%20(2025).pdf).
         - **Additional information** - Any other details about the project that can help inform the review.
