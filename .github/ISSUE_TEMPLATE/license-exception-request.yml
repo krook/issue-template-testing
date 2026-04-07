@@ -33,8 +33,7 @@ body:
 
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
-        - satisfies the [**CNCF Allowlist License Policy**](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); **or**
-        - **is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md) or another previously-granted exception for an equivalent use case.**
+        - satisfies the [**CNCF Allowlist License Policy**](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); 
 
 
         # Check for existing exceptions
@@ -43,7 +42,7 @@ body:
 
         **[Search the exceptions database](https://exceptions.cncf.io/)**
 
-        If an exception already exists for the same package and license, you do not need to request a new one.
+        If a blanket exception for all CNCF projects already exists for the same package and license, you do not need to request a new one.
 
         <br />
 
@@ -86,7 +85,7 @@ body:
 
         **IMPORTANT**:  You may include multiple packages in this issue only if the answers to **ALL** questions in this form (excluding this Component Details question) are identical for all packages. If any answer differs, please open a **separate issue** for each individual package.
 
-        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Project Usage URL" column, please include one or more URLs showing the CNCF project source code or other artifact where the component and its license are located or used. In the "Purpose" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
+        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Project Usage URL" column, please include the URL(s) where the component and its license are located. In the "Purpose" column, please briefly describe (in 1-2 sentences) the functionality of the component and the reason why the Project is using it.
 
   - type: textarea
     id: component_details
