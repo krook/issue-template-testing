@@ -92,7 +92,7 @@ body:
     id: component_details
     attributes:
       label: "List of components requiring an exception"
-      value: "| Component | Upstream URL | Project Usage URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
+      value: "| Component | Upstream URL | Project Usage URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |            |\n|            |            |            |            |            |\n|            |            |            |            |            |"
     validations:
       required: true
 
@@ -278,5 +278,3 @@ body:
     attributes:
       label: Please explain
       placeholder: Provide details about your selection(s)
-    validations:
-      required: true
