@@ -33,10 +33,9 @@ body:
 
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
-        - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); or
-        - is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md) or another previously-granted exception for an equivalent use case.
+        - satisfies the [**CNCF Allowlist License Policy**](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); **or**
+        - **is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md) or another previously-granted exception for an equivalent use case.**
 
-        <br />
 
         # Check for existing exceptions
 
@@ -137,6 +136,9 @@ body:
   - type: markdown
     attributes:
       value: |
+
+        <br />
+
         ***If the last option (“Not Distributed + Not Needed by End User”) is the ONLY option selected for the above question, no license exception is needed and you do not need to answer the remaining questions or submit this form.*** 
         
         ***If “CNCF-Distributed”, “User-Fetched Dependency” or “System Component” applies, please continue to fill out this form.***
@@ -217,10 +219,10 @@ body:
       label: "Communication mechanism"
       description: "Please select all that apply"
       options:
-        - label: "***Static Linking***: The dependency and the CNCF project code will be combined into a single binary or similar type of artifact during the build process."
-        - label: "***Dynamic Linking***: The CNCF project code will interact with the dependency by loading it into the shared address space (memory) at run-time. This includes traditional shared objects compiled into a separate binary, as well as runtime module loading in interpreted or JIT-compiled languages."
-        - label: "***Separate Process***: The dependency and the CNCF project code will run as distinct executables and communicate via Inter-Process Communication (e.g., pipes, sockets, or shared files)"
-        - label: "***Network Interaction***: The dependency and the CNCF project code will be logically and physically separated by a network boundary, with the CNCF project's code acting as a client or consumer of the remote service and interacting with the dependency exclusively via standardized network protocols."
+        - label: "**Static Linking**: The dependency and the CNCF project code will be combined into a single binary or similar type of artifact during the build process."
+        - label: "**Dynamic Linking**: The CNCF project code will interact with the dependency by loading it into the shared address space (memory) at run-time. This includes traditional shared objects compiled into a separate binary, as well as runtime module loading in interpreted or JIT-compiled languages."
+        - label: "**Separate Process**: The dependency and the CNCF project code will run as distinct executables and communicate via Inter-Process Communication (e.g., pipes, sockets, or shared files)"
+        - label: "**Network Interaction**: The dependency and the CNCF project code will be logically and physically separated by a network boundary, with the CNCF project's code acting as a client or consumer of the remote service and interacting with the dependency exclusively via standardized network protocols."
     validations:
       required: true
 
@@ -248,8 +250,8 @@ body:
       label: "Data exchange"
       description: "Please select all that apply"
       options:
-        - label: "***Tightly Coupled***: The upstream dependency and CNCF project code will exchange  complex internal data structures such as shared pointers, class instances, or private memory offsets that require extensive knowledge of the other component's internal memory layout."
-        - label: "***Arms-Length Only***: The communication between the dependency and the CNCF project code will be limited to standard serialized data (e.g., JSON, XML, or Protobuf) where data is \"flattened\" for transport and neither component accesses the other's internal memory structures."
+        - label: "**Tightly Coupled**: The upstream dependency and CNCF project code will exchange  complex internal data structures such as shared pointers, class instances, or private memory offsets that require extensive knowledge of the other component's internal memory layout."
+        - label: "**Arms-Length Only**: The communication between the dependency and the CNCF project code will be limited to standard serialized data (e.g., JSON, XML, or Protobuf) where data is \"flattened\" for transport and neither component accesses the other's internal memory structures."
     validations:
       required: true
 
