@@ -108,6 +108,7 @@ body:
   - type: checkboxes
     id: distribution_and_integration_model
     attributes:
+      label: "Distribution and integration model"
       description: "Please select all that apply"
       options:
         - label: "**CNCF-Distributed**: The CNCF project will distribute the dependency or the resulting combined artifacts to users."
@@ -151,6 +152,7 @@ body:
   - type: checkboxes
     id: modification_status
     attributes:
+      label: "Modification status"
       description: "Please select all that apply"
       options:
         - label: "**Modified Upstream**: The CNCF project will patch, alter, or otherwise modify the source code of the dependency and contribute upstream."
@@ -180,6 +182,7 @@ body:
   - type: checkboxes
     id: structural_separation
     attributes:
+      label: "Structural separation"
       description: "Please select all that apply"
       options:
         - label: "**Separated Component**: The dependency's code will either be (a) kept in a distinct directory or module clearly separated from CNCF project code, or (b) retrieved at build/installation time from a third-party repository and never stored in the CNCF project repository."
@@ -211,6 +214,7 @@ body:
   - type: checkboxes
     id: communication_mechanism
     attributes:
+      label: "Communication mechanism"
       description: "Please select all that apply"
       options:
         - label: "***Static Linking***: The dependency and the CNCF project code will be combined into a single binary or similar type of artifact during the build process."
@@ -241,6 +245,7 @@ body:
   - type: checkboxes
     id: data_exchange
     attributes:
+      label: "Data exchange"
       description: "Please select all that apply"
       options:
         - label: "***Tightly Coupled***: The upstream dependency and CNCF project code will exchange  complex internal data structures such as shared pointers, class instances, or private memory offsets that require extensive knowledge of the other component's internal memory layout."
