@@ -8,6 +8,7 @@ assignees: krook,jeefy,joannalee333
 body:
   - type: markdown
     attributes:
+      label: introduction
       value: |
         # Read before proceeding
 
@@ -56,6 +57,7 @@ body:
 
   - type: markdown
     attributes:
+      label: project_details
       value: |
         <br />
 
@@ -80,6 +82,7 @@ body:
 
   - type: markdown
     attributes:
+      label: component_details
       value: |
         <br />
 
