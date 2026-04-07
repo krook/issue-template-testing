@@ -230,7 +230,7 @@ body:
     id: communication_mechanism_explanation
     attributes:
       label: Please explain
-      placeholder: Provide details about your selection(s)
+      placeholder: Provide details about your selection(s) or N/A if "intermingled code" was selected for the structural separation question
     validations:
       required: true
 
@@ -259,7 +259,7 @@ body:
     id: data_exchange_explanation
     attributes:
       label: Please explain
-      placeholder: Provide details about your selection(s)
+      placeholder: Provide details about your selection(s) or N/A if "intermingled code" was selected for the structural separation question
     validations:
       required: true
 
