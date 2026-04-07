@@ -82,7 +82,7 @@ body:
       value: |
         <br />
 
-        ## :computer: Component details
+        ## :package: Component details
 
         **IMPORTANT**:  You may include multiple packages in this issue only if the answers to **ALL** questions in this form (excluding this Component Details question) are identical for all packages. If any answer differs, please open a **separate issue** for each individual package.
 
@@ -102,7 +102,7 @@ body:
       value: |
         <br />
 
-        ## :computer: Distribution and integration model 
+        ## :outbox_tray: Distribution and integration model
 
   - type: checkboxes
     id: distribution_and_integration_model
@@ -149,7 +149,7 @@ body:
       value: |
         <br />
 
-        ## :computer: Modification status
+        ## :pencil2: Modification status
 
   - type: checkboxes
     id: modification_status
@@ -177,7 +177,7 @@ body:
       value: |
         <br />
 
-        ## :computer: Structural separation
+        ## :building_construction: Structural separation
 
         Will the upstream code be kept distinct from the CNCF project code?
 
@@ -211,7 +211,7 @@ body:
       value: |
         <br />
 
-        ## :computer: Communication mechanism 
+        ## :telephone_receiver: Communication mechanism 
 
   - type: checkboxes
     id: communication_mechanism
@@ -240,7 +240,7 @@ body:
       value: |
         <br />
 
-        ## :computer: Data exchange
+        ## :arrows_counterclockwise: Data exchange
 
         Will the interaction involve the exchange of complex, internal data structures? 
 
@@ -269,7 +269,7 @@ body:
       value: |
         <br />
 
-        ## :computer: Additional information
+        ## :information_source: Additional information
 
         Is there any additional information you would like to provide regarding this request?
 
